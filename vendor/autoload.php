@@ -4,6 +4,4 @@
 
 require_once __DIR__ . '/composer' . '/autoload_real.php';
 
-require_once 'helpers.php';
-
 return ComposerAutoloaderInit58b16d06fcf2c1763d10d4b5632b5f19::getLoader();
