@@ -6,8 +6,7 @@
  * Time: 9:54 PM
  */
 
-namespace Wykleph\WebScraper;
-
+namespace Wykleph\HtmlScraper;
 interface ConsumesSiteMap
 {
     public function spawnSelectors($selectors);
