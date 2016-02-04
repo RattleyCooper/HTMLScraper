@@ -7,7 +7,6 @@
  */
 
 namespace Wykleph\HtmlScraper;
-
 interface ConsumesSiteMap
 {
     public function spawnSelectors($selectors);
