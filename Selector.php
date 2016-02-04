@@ -1,5 +1,5 @@
 <?php
-namespace Wykleph\WebScraper;
+namespace Wykleph\HtmlScraper;
 
 class Selector
 {

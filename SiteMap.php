@@ -1,6 +1,6 @@
 <?php
 
-namespace Wykleph\WebScraper;
+namespace Wykleph\HtmlScraper;
 
 /**
  * A class for consuming webscraper.io output json and
