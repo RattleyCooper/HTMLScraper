@@ -1,6 +1,6 @@
 <?php
 
-namespace Wykleph\WebScraper;
+namespace Wykleph\HtmlScraper;
 
 use Symfony\Component\DomCrawler\Crawler;
 
