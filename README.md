@@ -8,7 +8,7 @@ Installation : `composer require wykleph/html-scraper`
 
 __Note:  Child selectors are not supported yet, but it's on the docket!__
 
-To use, require this project with composer, then download [http://webscraper.io/](the webscraper.io extension for chrome).  This is what we will use to generate our sitemap for crawling the html.
+To use, require this project with composer, then download [the webscraper.io extension for chrome](http://webscraper.io/).  This is what we will use to generate our sitemap for crawling the html.
 
 Once you have the `webscraper.io` extension, you will probably want to learn how to use the `webscraper.io` extension.  
 
