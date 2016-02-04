@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Wykleph\\WebScraper\\' => array($baseDir . '/'),
+    'Wykleph\\HtmlScraper\\' => array($baseDir . '/'),
     'Wykleph\\Curler\\' => array($vendorDir . '/wykleph/curl', $vendorDir . '/wykleph/curl'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),

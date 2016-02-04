@@ -152,7 +152,7 @@ class Curler
      *
      * @return $this
      */
-    public function closeHandle($ch)
+    protected function closeHandle($ch)
     {
         if( gettype($ch) == 'resource' and get_resource_type($ch) == 'curl' )
         {
@@ -689,19 +689,6 @@ class Curler
     {
         $this->poststring = $postString;
         return $this;
-    }
-
-    /**
-     * Return the status code for the given handle.  The default handle
-     * is used if none is provided as a parameter.
-     *
-     * @param bool $ch
-     * @return mixed
-     */
-    public function statusCode($ch = false)
-    {
-        if ( ! $ch ) { $ch = $this->ch; }
-        return curl_getinfo($ch, CURLINFO_HTTP_CODE);
     }
 
     /**
