@@ -1,3 +1,4 @@
+vendor/*
 index.php
 sitemap.json
 carrierpoint.html
