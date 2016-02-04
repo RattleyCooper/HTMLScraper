@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e07cb64e8d99f1afebf9ca3fe3b317f2",
-    "content-hash": "e3d744c99f83d9196e99635ad3392c92",
+    "hash": "bbb8e7ff8c900292cc5623d773a4013f",
+    "content-hash": "45cd7738fc92c6e81cafa3fdfb2f5289",
     "packages": [
         {
             "name": "symfony/css-selector",
@@ -237,58 +237,6 @@
                 "dump"
             ],
             "time": "2016-01-07 13:38:40"
-        },
-        {
-            "name": "wykleph/curl",
-            "version": "v0.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Wykleph/Curl.git",
-                "reference": "881c6ca3bcf7e13f9afe9b134ea92bf8fe93446e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Wykleph/Curl/zipball/881c6ca3bcf7e13f9afe9b134ea92bf8fe93446e",
-                "reference": "881c6ca3bcf7e13f9afe9b134ea92bf8fe93446e",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Wykleph\\Curler\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Parker Young",
-                    "email": "wykleph@gmail.com"
-                }
-            ],
-            "description": "Simple synchronous and asynchronous cURL requests in php.",
-            "homepage": "https://github.com/Wykleph/Curl",
-            "keywords": [
-                "Multi-thread",
-                "asynchronous",
-                "automation",
-                "bot",
-                "crawler",
-                "curl",
-                "http",
-                "internet",
-                "mit",
-                "parallel",
-                "request",
-                "requests",
-                "scraper",
-                "spider",
-                "web",
-                "web request"
-            ],
-            "time": "2016-02-03 17:21:34"
         }
     ],
     "packages-dev": [],

@@ -7,7 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Wykleph\\HtmlScraper\\' => array($baseDir . '/'),
-    'Wykleph\\Curler\\' => array($vendorDir . '/wykleph/curl', $vendorDir . '/wykleph/curl'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
     'Symfony\\Component\\DomCrawler\\' => array($vendorDir . '/symfony/dom-crawler', $vendorDir . '/symfony/dom-crawler'),
