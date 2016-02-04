@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3ef018e8d7be8c1ae8ef4c9903d662a9",
-    "content-hash": "b421e5526b69426d099c3ffd7f7f230c",
+    "hash": "e07cb64e8d99f1afebf9ca3fe3b317f2",
+    "content-hash": "e3d744c99f83d9196e99635ad3392c92",
     "packages": [
         {
             "name": "symfony/css-selector",
@@ -240,16 +240,16 @@
         },
         {
             "name": "wykleph/curl",
-            "version": "dev-master",
+            "version": "v0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Wykleph/Curl.git",
-                "reference": "cde4947ffbf879ba70e8f063fd760dfc85847dfd"
+                "reference": "881c6ca3bcf7e13f9afe9b134ea92bf8fe93446e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Wykleph/Curl/zipball/cde4947ffbf879ba70e8f063fd760dfc85847dfd",
-                "reference": "cde4947ffbf879ba70e8f063fd760dfc85847dfd",
+                "url": "https://api.github.com/repos/Wykleph/Curl/zipball/881c6ca3bcf7e13f9afe9b134ea92bf8fe93446e",
+                "reference": "881c6ca3bcf7e13f9afe9b134ea92bf8fe93446e",
                 "shasum": ""
             },
             "type": "library",
@@ -288,7 +288,7 @@
                 "web",
                 "web request"
             ],
-            "time": "2016-02-03 18:45:37"
+            "time": "2016-02-03 17:21:34"
         }
     ],
     "packages-dev": [],
