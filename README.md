@@ -27,3 +27,8 @@ or:
 ```php
 $selections = new HtmlScraper($SiteMap, $html)->getSelections();
 ```
+
+The `$selections` array now contains all of the selections for the `sitemap` that you used for the given `html`.
+
+The `$selections` array should also contain the name of the selector that you set up with `webscraper.io` as the key,
+so accessing your selections is as easy as grabbing something like `$selections['username-field-name']` or `$selections['phone']`.
